@@ -7298,10 +7298,6 @@ of your Command phase, you can choose one of the following:
     <selectionEntry type="model" import="true" name="Temple-Walker of Radiant Judgement" hidden="false" id="twrj-002">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="2500"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="twrj-vehicle" primary="true" name="Vehicle"/>
@@ -7455,6 +7451,14 @@ of your Command phase, you can choose one of the following:
           </profiles>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Crusade" hidden="false" id="twrj-crusade" type="selectionEntryGroup" targetId="8bf8-c52b-0cfb-9890" sortIndex="1"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="twrj-f1" scope="self" shared="true" id="c36d-7b71-9ed2-afdb" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="twrj-f2" scope="self" shared="true" id="fb5b-1434-09a4-d125" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="twrj-f3" scope="self" shared="true" id="92af-5ab6-58fe-1329" includeChildSelections="true"/>
+      </constraints>
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
