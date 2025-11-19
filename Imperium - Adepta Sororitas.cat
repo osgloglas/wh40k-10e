@@ -7414,7 +7414,7 @@ of your Command phase, you can choose one of the following:
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications1" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
               </entryLinks>
             </selectionEntry>
-            <!-- <selectionEntry type="upgrade" import="true" name="Exorcist Vortex Missile Launchers" hidden="false" id="exorcist-vortex-missile-launchers">
+            <selectionEntry type="upgrade" import="true" name="Exorcist Vortex Missile Launchers" hidden="false" id="exorcist-vortex-missile-launchers">
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con3"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con4"/>
@@ -7442,7 +7442,7 @@ of your Command phase, you can choose one of the following:
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications2" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rock Feet" hidden="false" id="rock-feet">
+            <!-- <selectionEntry type="upgrade" import="true" name="Rock Feet" hidden="false" id="rock-feet">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="twrj-con5"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="twrj-con6"/>
