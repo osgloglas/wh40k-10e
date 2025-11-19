@@ -7389,7 +7389,7 @@ of your Command phase, you can choose one of the following:
           </characteristics>
         </profile>
       </profiles>
-        <selectionEntryGroup name="Wargear" id="9bab-d72b-c7bd-96c0" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Wargear" id="twrj-wargear" hidden="false" sortIndex="2">
         <selectionEntries>
           <selectionEntry type="upgrade" import="true" name="Absolution Cannons" hidden="false" id="absolution-cannons">
             <constraints>
