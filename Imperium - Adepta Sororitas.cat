@@ -7295,7 +7295,7 @@ of your Command phase, you can choose one of the following:
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Temple-Walker of Radiant Judgement" hidden="false" id="twrj-001">
+    <selectionEntry type="model" import="true" name="Temple-Walker of Radiant Judgement" hidden="false" id="twrj-002">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="2500"/>
       </costs>
