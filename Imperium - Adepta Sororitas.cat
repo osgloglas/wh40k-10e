@@ -7389,77 +7389,79 @@ of your Command phase, you can choose one of the following:
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Absolution Cannons" hidden="false" id="absolution-cannons">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con1"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con2"/>
-          </constraints>
-          <profiles>
-            <profile name="Absolution Cannons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="twrj-absolution-cannons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+6</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
-                <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-4</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications1" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
-          </entryLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Exorcist Vortex Missile Launchers" hidden="false" id="exorcist-vortex-missile-launchers">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con3"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con4"/>
-          </constraints>
-          <profiles>
-            <profile name="Exorcist Vortex Missile Launchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="twrj-exorcist-vortex-missile-launchers">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">100&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-3</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infolinks>
-            <infolink name="Blast" id="twrj-blast" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-            <infolink name="Indirect Fire" id="twrj-indirect-fire" hidden="false" type="rule" targetId="4b48-9b92-bf92-6d04"/>
-            <infolink name="Devastating Wounds" id="twrj-devastating-wounds" hidden="false" type="rule" targetId="7da7-bb52-4ee5-1db1"/>
-            <infolink name="Hazardous" id="twrj-hazardous" hidden="false" type="rule" targetId="7a93-c73b-ae24-05db"/>
-          </infolinks>
-          <entryLinks>
-            <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications2" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
-          </entryLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Rock Feet" hidden="false" id="rock-feet">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="twrj-con5"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="twrj-con6"/>
-          </constraints>
-          <profiles>
-            <profile name="Rock Feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="twrj-rock-feet">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">Melee</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-2</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">4</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications3" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
+        <selectionEntryGroup name="Wargear" id="9bab-d72b-c7bd-96c0" hidden="false" sortIndex="2">
+        <selectionEntries>
+          <selectionEntry type="upgrade" import="true" name="Absolution Cannons" hidden="false" id="absolution-cannons">
+            <constraints>
+              <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con1"/>
+              <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con2"/>
+            </constraints>
+            <profiles>
+              <profile name="Absolution Cannons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="twrj-absolution-cannons">
+                <characteristics>
+                  <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                  <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+6</characteristic>
+                  <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                  <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                  <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-4</characteristic>
+                  <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                </characteristics>
+              </profile>
+            </profiles>
+            <entryLinks>
+              <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications1" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
+            </entryLinks>
+          </selectionEntry>
+          <selectionEntry type="upgrade" import="true" name="Exorcist Vortex Missile Launchers" hidden="false" id="exorcist-vortex-missile-launchers">
+            <constraints>
+              <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con3"/>
+              <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con4"/>
+            </constraints>
+            <profiles>
+              <profile name="Exorcist Vortex Missile Launchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="twrj-exorcist-vortex-missile-launchers">
+                <characteristics>
+                  <characteristic name="Range" typeId="9896-9419-16a1-92fc">100&quot;</characteristic>
+                  <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                  <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                  <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                  <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-3</characteristic>
+                  <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                </characteristics>
+              </profile>
+            </profiles>
+            <infolinks>
+              <infolink name="Blast" id="twrj-blast" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+              <infolink name="Indirect Fire" id="twrj-indirect-fire" hidden="false" type="rule" targetId="4b48-9b92-bf92-6d04"/>
+              <infolink name="Devastating Wounds" id="twrj-devastating-wounds" hidden="false" type="rule" targetId="7da7-bb52-4ee5-1db1"/>
+              <infolink name="Hazardous" id="twrj-hazardous" hidden="false" type="rule" targetId="7a93-c73b-ae24-05db"/>
+            </infolinks>
+            <entryLinks>
+              <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications2" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
+            </entryLinks>
+          </selectionEntry>
+          <selectionEntry type="upgrade" import="true" name="Rock Feet" hidden="false" id="rock-feet">
+            <constraints>
+              <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="twrj-con5"/>
+              <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="twrj-con6"/>
+            </constraints>
+            <profiles>
+              <profile name="Rock Feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="twrj-rock-feet">
+                <characteristics>
+                  <characteristic name="Range" typeId="9896-9419-16a1-92fc">Melee</characteristic>
+                  <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
+                  <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                  <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                  <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-2</characteristic>
+                  <characteristic name="D" typeId="3254-9fe6-d824-513e">4</characteristic>
+                </characteristics>
+              </profile>
+            </profiles>
+            <entryLinks>
+              <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications3" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
+            </entryLinks>
+          </selectionEntry>
+        </selectionEntries>
+      </selectionEntryGroup>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="twrj-crusade" type="selectionEntryGroup" targetId="8bf8-c52b-0cfb-9890" sortIndex="1"/>
       </entryLinks>
