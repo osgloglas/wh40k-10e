@@ -7388,6 +7388,123 @@ of your Command phase, you can choose one of the following:
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Absolution Cannons" hidden="false" id="absolution-cannons">
+          <profiles>
+            <profile name="Absolution Cannons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-4</characteristic>
+                <characteristic name="D" typeId="">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Exorcist Vortex Missile Launchers" hidden="false" id="exorcist-vortex-missile-launchers">
+          <profiles>
+            <profile name="Exorcist Vortex Missile Launchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">100&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-3</characteristic>
+                <characteristic name="D" typeId="">D6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infolinks>
+            <infolink name="Blast" id="twrj-blast" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+            <infolink name="Indirect Fire" id="twrj-indirect-fire" hidden="false" type="rule" targetId="4b48-9b92-bf92-6d04"/>
+            <infolink name="Devastating Wounds" id="twrj-devastating-wounds" hidden="false" type="rule" targetId="7da7-bb52-4ee5-1db1"/>
+            <infolink name="Hazardous" id="twrj-hazardous" hidden="false" type="rule" targetId="7a93-c73b-ae24-05db"/>
+          </infolinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rock Feet" hidden="false" id="rock-feet">
+          <profiles>
+            <profile name="Rock Feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">Melee</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-2</characteristic>
+                <characteristic name="D" typeId="">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="6" field="9108-344f-d15a-0ba4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="1511-18fe-f51e-7b9d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="726a-d6a6-eee1-c635">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="2" field="a033-21ac-8d77-89c1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" value="(Battle-ready)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atMost" value="5" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Blooded)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atMost" value="15" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Battle-hardened)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="15" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atMost" value="30" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Heroic)" field="name">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="30" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                    <condition type="atMost" value="50" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="(Legendary)" field="name">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="self" childId="2dbf-4d49-5d74-85c9" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Crusade modifiers</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Triumph of Saint Katherine" hidden="false" id="9f5f-d769-7900-c8a1" publicationId="7d85-6d0f-57e0-5dea">
       <costs>
