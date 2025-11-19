@@ -7380,12 +7380,12 @@ of your Command phase, you can choose one of the following:
         </profile>
         <profile name="Tremor Quake" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-tremor-quake">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your shooting phase, just after selecting a target for this model's **Absolution Cannons**, the target unit and every other enemy [INFANTRY] unit within 3&quot; of that unit must make a battle-shock test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your shooting phase, just after selecting a target for this model’s Absolution Cannons, the target unit and every other enemy INFANTRY unit within 3&quot; of that unit must make a battle-shock test.</characteristic>
           </characteristics>
         </profile>
         <profile name="Vortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-vortex">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your shooting phase, each time you select a target for this model's **Exorcist Vortex Missile Launchers**, roll 1D6 for the target unit and 1D6 for every other enemy unit within 3&quot; of that unit. For each 4+, the unit being rolled for is struck by the vortex; after resolving all of this model's attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your shooting phase, each time you select a target for this model’s Exorcist Vortex Missile Launchers, roll 1D6 for the target unit and 1D6 for every other enemy unit within 3&quot; of that unit. For each 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
