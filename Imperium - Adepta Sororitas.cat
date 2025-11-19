@@ -11949,6 +11949,7 @@ Death Before Disgrace: Each time a PENITENT model from your army is destroyed by
     <entryLink import="true" name="Seraphim Squad" hidden="false" type="selectionEntry" id="56c1-9bf9-11a1-be0a" targetId="bee9-172b-7db7-f748"/>
     <entryLink import="true" name="Sisters Novitiate Squad" hidden="false" type="selectionEntry" id="5a25-df80-8da1-cad9" targetId="4269-a229-1461-67d0"/>
     <entryLink import="true" name="Sororitas Rhino" hidden="false" type="selectionEntry" id="5601-231f-41e1-fd7f" targetId="52c7-3f6b-cece-8101"/>
+    <entryLink import="true" name="Temple-Walker of Radiant Judgement" hidden="false" type="selectionEntry" id="twrj-entry" targetId="twrj-002"/>
     <entryLink import="true" name="Triumph of Saint Katherine" hidden="false" type="selectionEntry" id="59f4-f4db-60d4-dfec" targetId="9f5f-d769-7900-c8a1"/>
     <entryLink import="true" name="Zephyrim Squad" hidden="false" type="selectionEntry" id="f2b9-cd8a-1e39-4cad" targetId="22f0-a7d8-b2b6-e26"/>
     <entryLink import="true" name="Daemonifuge" hidden="false" type="selectionEntry" id="ee6b-e1a3-5bb0-61c7" targetId="8569-2390-d4db-30fd"/>
