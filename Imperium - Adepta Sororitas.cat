@@ -7431,10 +7431,10 @@ of your Command phase, you can choose one of the following:
                 </profile>
               </profiles>
               <infolinks>
-                <infolink name="Blast" id="twrj-blast" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-                <infolink name="Indirect Fire" id="twrj-indirect-fire" hidden="false" type="rule" targetId="4b48-9b92-bf92-6d04"/>
-                <infolink name="Devastating Wounds" id="twrj-devastating-wounds" hidden="false" type="rule" targetId="7da7-bb52-4ee5-1db1"/>
-                <infolink name="Hazardous" id="twrj-hazardous" hidden="false" type="rule" targetId="7a93-c73b-ae24-05db"/>
+                <infoLink name="Indirect Fire" hidden="false" type="rule" id="twrj-indirect-fire" targetId="4ddd-4e29-acdd-5e6d"/>
+                <infoLink name="Blast" hidden="false" type="rule" id="twrj-blast" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Devastating Wounds" hidden="false" type="rule" id="twrj-devastating-wounds" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Hazardous" hidden="false" type="rule" id="twrj-hazardous" targetId="8367-374c-f87-c627"/>
               </infolinks>
               <entryLinks>
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="twrj-weapon-modifications2" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
