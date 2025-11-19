@@ -7305,6 +7305,7 @@ of your Command phase, you can choose one of the following:
         <categoryLink targetId="5929-ad51-d006-e008" id="twrj-titanic" primary="false" name="Titanic"/>
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="twrj-towering" primary="false" name="Towering"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="twrj-imperium" primary="false" name="Imperium"/>
+        <categoryLink targetId="twrj-001" id="twrj-catlink" primary="false" name="Temple-Walker of Radiant Judgement"/>
         <categoryLink targetId="fd71-afa6-b13b-7fda" id="twrj-faction-adepta-sororitas" primary="false" name="Faction: Adepta Sororitas"/>
       </categoryLinks>
       <infoLinks>
@@ -7317,16 +7318,6 @@ of your Command phase, you can choose one of the following:
         <infoLink name="Super-Heavy Walker" hidden="false" type="rule" id="twrj-super-heavy-walker" targetId="5e13-1624-d280-418d"/>
       </infoLinks>
       <profiles>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-invulnerable-save">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks only.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Damaged: 1-26 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-damaged">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-26 wounds remaining, subtract 7 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Temple-Walker of Radiant Judgement" typeId="" typeName="Unit" hidden="false" id="twrj-profile">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
@@ -7335,6 +7326,16 @@ of your Command phase, you can choose one of the following:
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">80</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-invulnerable-save">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks only.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-26 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-damaged">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-26 wounds remaining, subtract 7 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile name="Toll of Saints" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="twrj-toll-of-saints">
@@ -7390,6 +7391,10 @@ of your Command phase, you can choose one of the following:
       </profiles>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Absolution Cannons" hidden="false" id="absolution-cannons">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con1"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con2"/>
+          </constraints>
           <profiles>
             <profile name="Absolution Cannons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="twrj-absolution-cannons">
               <characteristics>
@@ -7404,6 +7409,10 @@ of your Command phase, you can choose one of the following:
           </profiles>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Exorcist Vortex Missile Launchers" hidden="false" id="exorcist-vortex-missile-launchers">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="twrj-con3"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="twrj-con4"/>
+          </constraints>
           <profiles>
             <profile name="Exorcist Vortex Missile Launchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="twrj-exorcist-vortex-missile-launchers">
               <characteristics>
@@ -7424,6 +7433,10 @@ of your Command phase, you can choose one of the following:
           </infolinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Rock Feet" hidden="false" id="rock-feet">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="twrj-con5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="twrj-con6"/>
+          </constraints>
           <profiles>
             <profile name="Rock Feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="twrj-rock-feet">
               <characteristics>
