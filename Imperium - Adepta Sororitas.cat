@@ -7427,6 +7427,7 @@ of your Command phase, you can choose one of the following:
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                     <characteristic name="AP" typeId="9cfd-1c32-585f-7d5c">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Devastating Wounds, Hazardous, Indirect Fire</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
