@@ -2590,7 +2590,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-051" type="min"/>
               </constraints>
               <profiles>
-                <profile name="➤ Witchfire Greatsword - strike" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-044">
+                <profile name="➤ Witchfire Greatsword - strike" typeId="f77d-b953-8fa4-b762" typeName="Melee Weapons" hidden="false" id="gbs-044">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
@@ -2601,7 +2601,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="➤ Witchfire Greatsword - sweep" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-045">
+                <profile name="➤ Witchfire Greatsword - sweep" typeId="f77d-b953-8fa4-b762" typeName="Melee Weapons" hidden="false" id="gbs-045">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
@@ -2626,9 +2626,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-054" type="max"/>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-053" type="min"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-020" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
               <profiles>
                 <profile name="Witchfire Greathammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-046">
                   <characteristics>
@@ -2642,9 +2639,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   </characteristics>
                 </profile>
               </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-022" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
             </selectionEntry>
             <selectionEntry id="gbs-055" name="Concussion Fists" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2671,9 +2665,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   </characteristics>
                 </profile>
               </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-024" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
             </selectionEntry>
           </selectionEntryGroups>
             <!--<selectionEntryGroup name="Ranged Weapons" id="gbs-025" hidden="false">
