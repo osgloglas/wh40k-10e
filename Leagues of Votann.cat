@@ -2536,7 +2536,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         <categoryLink targetId="dbd4-63-af05-998" id="gbs-003" primary="true" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="gbs-004" primary="false" name="Walker"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="gbs-005" primary="false" name="Psyker"/>
-        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="gbs-006" primary="false" name="Imperium"/>
         <categoryLink targetId="8474-765-16a9-f00d" hidden="false" primary="false" id="gbs-007" name="Faction: Leagues of Votann"/>
       </categoryLinks>
       <profiles>
