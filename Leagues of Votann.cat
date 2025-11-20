@@ -2577,10 +2577,17 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="gbs-015" hidden="false" sortIndex="2">
           <selectionEntryGroups>
-            <selectionEntryGroup id="gbs-048" name="Wargear" hidden="false" collective="false" import="true" sortIndex="2">
+            <selectionEntry id="gbs-050" name="Witchfire Greatsword" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="gbs-051" value="1">
+                  <conditions>
+                    <condition field="selections" scope="09d3-6357-7888-00d9" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c5-35f8-3823-bf60" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="gbs-049" type="min"/>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="gbs-050" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-052" type="max"/>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-051" type="min"/>
               </constraints>
               <profiles>
                 <profile name="➤ Witchfire Greatsword - strike" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-044">
@@ -2606,11 +2613,24 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   </characteristics>
                 </profile>
               </profiles>
+            </selectionEntry>
+            <selectionEntry id="gbs-050" name="Witchfire Greathammer" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="gbs-053" value="1">
+                  <conditions>
+                    <condition field="selections" scope="09d3-6357-7888-00d9" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c5-35f8-3823-bf60" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-054" type="max"/>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-053" type="min"/>
+              </constraints>
               <entryLinks>
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-020" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
               <profiles>
-                <profile name="Witchfire Graviton Greathammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-046">
+                <profile name="Witchfire Greathammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-046">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
@@ -2625,6 +2645,19 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
               <entryLinks>
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-022" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
+            </selectionEntry>
+            <selectionEntry id="gbs-055" name="Concussion Fists" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="gbs-056" value="1">
+                  <conditions>
+                    <condition field="selections" scope="09d3-6357-7888-00d9" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c5-35f8-3823-bf60" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-057" type="max"/>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-056" type="min"/>
+              </constraints>
               <profiles>
                 <profile name="Concussion Fists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-047">
                   <characteristics>
@@ -2641,7 +2674,8 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
               <entryLinks>
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-024" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
-            </selectionEntryGroup>
+            </selectionEntry>
+          </selectionEntryGroups>
             <!--<selectionEntryGroup name="Ranged Weapons" id="gbs-025" hidden="false">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="gbs-026"/>
@@ -2672,8 +2706,8 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   </entryLinks>
                 </entryLink>
               </entryLinks>
-            </selectionEntryGroup>-->
-          </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>-->
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
