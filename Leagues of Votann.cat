@@ -2574,33 +2574,75 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
           </modifiers>
         </infoLink>
       </infoLinks>
-      <!--<selectionEntryGroups>
+      <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="gbs-015" hidden="false" sortIndex="2">
-          <selectionEntryGroups>-->
-            <selectionEntryGroup name="Dreadfists" id="gbs-016" hidden="false" defaultSelectionEntryId="gbs-023">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="gbs-048" name="Wargear" hidden="false" collective="false" import="true" sortIndex="2">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-017"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-018"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="gbs-049" type="min"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="gbs-050" type="max"/>
               </constraints>
+              <profiles>
+                <profile name="➤ Witchfire Greatsword - strike" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-044">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="BS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Witchfire Greatsword - sweep" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-045">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                    <characteristic name="BS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <entryLinks>
-                <entryLink import="true" name="Nemesis greatsword" hidden="false" id="gbs-019" type="selectionEntry" targetId="11a4-c85b-ae25-cc95">
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-020" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Nemesis daemon greathammer" hidden="false" id="gbs-021" type="selectionEntry" targetId="fa77-59f9-10a7-74c0">
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-022" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Dreadfists" hidden="false" id="gbs-023" type="selectionEntry" targetId="597-f5-1f7d-dce5"> <!-- double check if fail -->
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-024" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-020" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Witchfire Graviton Greathammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-046">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-022" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Concussion Fists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-047">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-024" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Ranged Weapons" id="gbs-025" hidden="false">
+            <!--<selectionEntryGroup name="Ranged Weapons" id="gbs-025" hidden="false">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="gbs-026"/>
               </constraints>
@@ -2630,10 +2672,10 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   </entryLinks>
                 </entryLink>
               </entryLinks>
-            </selectionEntryGroup>
-          <!--</selectionEntryGroups>
+            </selectionEntryGroup>-->
+          </selectionEntryGroups>
         </selectionEntryGroup>
-      </selectionEntryGroups>-->
+      </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="gbs-036" includeChildSelections="true"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="gbs-037" includeChildSelections="false"/>
@@ -2646,17 +2688,17 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="6" field="gbs-037">
+            <modifier type="set" value="6" field="gbs-041">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="1511-18fe-f51e-7b9d" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="2" field="gbs-038">
+            <modifier type="increment" value="2" field="gbs-042">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="2" field="gbs-039">
+            <modifier type="increment" value="2" field="gbs-043">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="self" childId="d1a5-4297-168b-11cd" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
