@@ -2533,7 +2533,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="8083-7b7a-c9d7-fd31" id="gbs-002" primary="false" name="Grimnyr Battle Suit"/>
+        <categoryLink targetId="diuhf8ow" id="gbs-002" primary="false" name="Grimnyr Battle Suit"/>
         <categoryLink targetId="dbd4-63-af05-998" id="gbs-003" primary="true" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="gbs-004" primary="false" name="Walker"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="gbs-005" primary="false" name="Psyker"/>
@@ -2561,6 +2561,11 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
           </characteristics>
         </profile>
       </profiles>
+      <profile id="4179-42b7-04ba-4430" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <characteristics>
+          <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+        </characteristics>
+      </profile>
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="gbs-011" targetId="7cb5-dd6b-dd87-ad3b"/>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="gbs-012" targetId="b68a-5ded-65ac-98c">
@@ -2568,12 +2573,10 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Invulnerable Save (4+)" hidden="false" type="profile" id="gbs-013" targetId="df6-e949-835b-ad0d"/>
-        <infoLink name="Gate of Infinity" id="gbs-014" hidden="false" type="rule" targetId="6a5e-1316-2d87-93c5"/>
       </infoLinks>
-      <selectionEntryGroups>
+      <!--<selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="gbs-015" hidden="false" sortIndex="2">
-          <selectionEntryGroups>
+          <selectionEntryGroups>-->
             <selectionEntryGroup name="Dreadfists" id="gbs-016" hidden="false" defaultSelectionEntryId="gbs-023">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-017"/>
@@ -2628,9 +2631,9 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-          </selectionEntryGroups>
+          <!--</selectionEntryGroups>
         </selectionEntryGroup>
-      </selectionEntryGroups>
+      </selectionEntryGroups>-->
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="gbs-036" includeChildSelections="true"/>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="gbs-037" includeChildSelections="false"/>
