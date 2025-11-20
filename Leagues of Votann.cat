@@ -32,6 +32,7 @@
     <categoryEntry id="grimnyr-battle-suit-001" name="Grimnyr Battle Suit" hidden="false"/>
   </categoryEntries>
   <entryLinks>
+    <entryLink id="grimnyr-battle-suit-002" name="Grimnyr Battle Suit" hidden="false" collective="false" import="true" targetId="gbs-001" type="selectionEntry"/>
     <entryLink id="0ec6-9ba0-eef0-b5b9" name="Detachment" hidden="false" collective="false" import="true" targetId="5914-3326-fac9-bf29" type="selectionEntry"/>
     <entryLink id="34a3-1b3f-4c56-c27a" name="Hearthkyn Warriors" hidden="false" collective="false" import="true" targetId="ba4f-c3f9-6925-af0c" type="selectionEntry"/>
     <entryLink id="95dc-990b-2a93-5e83" name="Ûthar the Destined" hidden="false" collective="false" import="true" targetId="2e6e-95a1-60ad-7b1c" type="selectionEntry"/>
