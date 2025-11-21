@@ -2579,11 +2579,11 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
           <selectionEntryGroups>
             <selectionEntry type="upgrade" import="true" name="Witchfire Greatsword" hidden="false" id="witchfire-greatsword">
               <constraints>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="gbs-60"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="gbs-61"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-60"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-61"/>
               </constraints>
               <profiles>
-                <profile name="➤ Witchfire Greatsword - strike" typeId="f77d-b953-8fa4-b762" typeName="Melee Weapons" hidden="false" id="gbs-044">
+                <profile name="➤ Witchfire Greatsword - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-044">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
@@ -2594,7 +2594,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="➤ Witchfire Greatsword - sweep" typeId="f77d-b953-8fa4-b762" typeName="Melee Weapons" hidden="false" id="gbs-045">
+                <profile name="➤ Witchfire Greatsword - sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-045">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
