@@ -2577,17 +2577,10 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="gbs-015" hidden="false" sortIndex="2">
           <selectionEntryGroups>
-            <selectionEntry id="gbs-050" name="Witchfire Greatsword" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="gbs-051" value="1">
-                  <conditions>
-                    <condition field="selections" scope="09d3-6357-7888-00d9" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c5-35f8-3823-bf60" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <selectionEntry type="upgrade" import="true" name="Witchfire Greatsword" hidden="false" id="witchfire-greatsword" collective="false">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-052" type="max"/>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-051" type="min"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="gbs-60"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="gbs-61"/>
               </constraints>
               <profiles>
                 <profile name="➤ Witchfire Greatsword - strike" typeId="f77d-b953-8fa4-b762" typeName="Melee Weapons" hidden="false" id="gbs-044">
@@ -2610,58 +2603,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry id="gbs-050" name="Witchfire Greathammer" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="gbs-053" value="1">
-                  <conditions>
-                    <condition field="selections" scope="09d3-6357-7888-00d9" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c5-35f8-3823-bf60" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-054" type="max"/>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-053" type="min"/>
-              </constraints>
-              <profiles>
-                <profile name="Witchfire Greathammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-046">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry id="gbs-055" name="Concussion Fists" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="gbs-056" value="1">
-                  <conditions>
-                    <condition field="selections" scope="09d3-6357-7888-00d9" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c5-35f8-3823-bf60" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-057" type="max"/>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-056" type="min"/>
-              </constraints>
-              <profiles>
-                <profile name="Concussion Fists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="gbs-047">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
