@@ -2577,7 +2577,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="gbs-015" hidden="false" sortIndex="2">
           <selectionEntryGroups>
-            <selectionEntry type="upgrade" import="true" name="Witchfire Greatsword" hidden="false" id="witchfire-greatsword" collective="false">
+            <selectionEntry type="upgrade" import="true" name="Witchfire Greatsword" hidden="false" id="witchfire-greatsword">
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="gbs-60"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="gbs-61"/>
