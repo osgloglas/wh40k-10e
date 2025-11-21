@@ -2527,10 +2527,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
     <selectionEntry type="model" import="true" name="Grimnyr Battle Suit" hidden="false" id="gbs-001" collective="false" sortIndex="3">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="210"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="diuhf8ow" id="gbs-002" primary="false" name="Grimnyr Battle Suit"/>
