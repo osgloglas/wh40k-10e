@@ -2606,9 +2606,9 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   </characteristics>
                 </profile>
               </profiles>
-              <categoryLinks>
-                <categoryLink name="Psychic Weapon" hidden="false" id="gbs-064" targetId="4546-4a0c-b3be-e84c" primary="false"/>
-              </categoryLinks>
+              <infolinks>
+                <infoLink id="gbs-065" name="Psychic" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+              </infolinks>
             </selectionEntry>
           </selectionEntryGroups>
             <!--<selectionEntryGroup name="Ranged Weapons" id="gbs-025" hidden="false">
