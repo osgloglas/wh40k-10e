@@ -2627,7 +2627,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
             </profile>
           </profiles>
           <infolinks>
-            <infoLink id="gbs-069" name="Ingores Cover" hidden="false" targetId="1f74-185d-1d66-bd7f" type="rule"/>
+            <infoLink id="gbs-069" name="Ingores Cover" hidden="false" targetId="afeb-1d49-689-43d0" type="rule"/>
             <infoLink id="gbs-070" name="Torrent" hidden="false" targetId="3103-bc50-ad97-25c9" type="rule"/>
           </infolinks>
           <entryLinks>
