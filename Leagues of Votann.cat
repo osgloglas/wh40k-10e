@@ -2613,8 +2613,8 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
           </selectionEntryGroups>-->
             <selectionEntry type="upgrade" import="true" name="Heavy Witchfire Incinerator" hidden="false" id="witchfire-incinerator">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-66"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-67"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-066" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gbs-067" type="max"/>
               </constraints>
               <profiles>
                 <profile name="Heavy Witchfire Incinerator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-068">
