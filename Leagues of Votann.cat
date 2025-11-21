@@ -2577,7 +2577,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="gbs-015" hidden="false" sortIndex="2">
           <selectionEntryGroups>
-            <selectionEntry type="upgrade" import="true" name="Witchfire Greatsword" hidden="false" id="witchfire-greatsword">
+            <!--<selectionEntry type="upgrade" import="true" name="Witchfire Greatsword" hidden="false" id="witchfire-greatsword">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-60"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-61"/>
@@ -2610,39 +2610,34 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                 <infoLink id="gbs-065" name="Psychic" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
               </infolinks>
             </selectionEntry>
-          </selectionEntryGroups>
-            <!--<selectionEntryGroup name="Ranged Weapons" id="gbs-025" hidden="false">
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="gbs-026"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Gatling psilencer" hidden="false" id="gbs-027" type="selectionEntry" targetId="5ae4-c05d-2c02-5c5c">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-028"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-029" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Heavy psycannon" hidden="false" id="gbs-030" type="selectionEntry" targetId="5a07-33e2-89ab-4bd5">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-031"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-032" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Heavy incinerator" hidden="false" id="gbs-033" type="selectionEntry" targetId="bed5-712c-a207-c3d1">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-034"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-035" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
           </selectionEntryGroups>-->
+            <selectionEntry type="upgrade" import="true" name="Heavy Witchfire Incinerator" hidden="false" id="witchfire-incinerator">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-66"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-67"/>
+              </constraints>
+              <profiles>
+                <profile name="Heavy Witchfire Incinerator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="gbs-068">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ingores Cover, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infolinks>
+                <infoLink id="gbs-069" name="Ingores Cover" hidden="false" targetId="1f74-185d-1d66-bd7f" type="rule"/>
+                <infoLink id="gbs-070" name="Torrent" hidden="false" targetId="3103-bc50-ad97-25c9" type="rule"/>
+              </infolinks>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="gbs-modifications" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9" flatten="false"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
