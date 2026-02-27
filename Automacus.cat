@@ -4750,6 +4750,9 @@ of your Command phase, you can choose one of the following:
                       </characteristics>
                     </profile>
                   </profiles>
+                  <entryLinks>
+                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="a-025" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                  </entryLinks>
                   <infoLinks>
                     <infoLink name="Hazardous" hidden="false" type="rule" id="a-015" targetId="8367-374c-f87-c627"/>
                     <infoLink name="Blast" hidden="false" type="rule" id="a-016" targetId="6c1f-1cf7-ff25-c99e"/>
@@ -4761,9 +4764,10 @@ of your Command phase, you can choose one of the following:
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="3" field="pw-f1" scope="self" shared="true" id="c36d-7b71-9ed2-afdb" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="pw-f2" scope="self" shared="true" id="fb5b-1434-09a4-d125" includeChildSelections="true"/>
-        <constraint type="min" value="0" field="pw-f3" scope="self" shared="true" id="92af-5ab6-58fe-1329" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="ec4f-3b3c-efdb-d174" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="pw-f1" scope="self" shared="true" id="fb8f-050c-0dff-9a55" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="pw-f2" scope="self" shared="true" id="f177-5dfa-6290-ce11" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="pw-f3" scope="self" shared="true" id="efdf-7221-9980-f323" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="a-021" type="selectionEntryGroup" targetId="b0df-6a60-8561-efde" sortIndex="1"/>
