@@ -4697,9 +4697,6 @@ of your Command phase, you can choose one of the following:
         </infoLink>
         <infoLink name="Damaged: 1-6 Wounds Remaining" hidden="false" type="profile" id="a-007" targetId="39db-fc02-9b22-388d"/>
       </infoLinks>
-      <!--<infoLinks>
-        <infoLink name="Acts of Faith" hidden="false" type="rule" id="3231-2d77-89fd-5623" targetId="7ef7-dca6-e2ea-ecc8"/>
-      </infoLinks>-->
       <profiles>
         <profile name="Emergency Plasma Vents" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a-005">
           <characteristics>
@@ -4721,49 +4718,52 @@ of your Command phase, you can choose one of the following:
               </characteristics>
             </profile>
           </profiles>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plasma Obliterator" hidden="false" id="a-010">
-              <profiles>
-                <profile name="➤ Plasma obliterator - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a-011">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="➤ Plasma obliterator - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a-012">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a-013"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a-014"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Hazardous" hidden="false" type="rule" id="a-015" targetId="8367-374c-f87-c627"/>
-                <infoLink name="Blast" hidden="false" type="rule" id="a-016" targetId="6c1f-1cf7-ff25-c99e"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Wargear" id="a-024" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Plasma Obliterator" hidden="false" id="a-010">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a-013"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a-014"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="➤ Plasma obliterator - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a-011">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="➤ Plasma obliterator - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a-012">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Hazardous" hidden="false" type="rule" id="a-015" targetId="8367-374c-f87-c627"/>
+                    <infoLink name="Blast" hidden="false" type="rule" id="a-016" targetId="6c1f-1cf7-ff25-c99e"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a-017" includeChildSelections="false"/>
-        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="a-018" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a-019" includeChildSelections="true"/>
-        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a-020" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="pw-f1" scope="self" shared="true" id="c36d-7b71-9ed2-afdb" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="pw-f2" scope="self" shared="true" id="fb5b-1434-09a4-d125" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="pw-f3" scope="self" shared="true" id="92af-5ab6-58fe-1329" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="a-021" type="selectionEntryGroup" targetId="b0df-6a60-8561-efde" sortIndex="1"/>
