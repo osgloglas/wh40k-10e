@@ -11623,7 +11623,7 @@ Death Before Disgrace: Each time a PENITENT model from your army is destroyed by
     <entryLink import="true" name="Mortifiers" hidden="false" type="selectionEntry" id="c17e-9345-c79b-ce1" targetId="3c3f-f02d-c05c-492a"/>
     <entryLink import="true" name="Morvenn Vahl" hidden="false" type="selectionEntry" id="66ee-5e78-d834-ce31" targetId="7188-4d20-8216-c68a"/>
     <entryLink import="true" name="Palatine" hidden="false" type="selectionEntry" id="94f8-bd2f-ec61-610d" targetId="fbeb-1caf-8f5c-ff8e"/>
-    <entryLink import="true" name="Paragon Warsuits" hidden="false" type="selectionEntry" id="5b7a-8a8-3d7a-ee2f" targetId="e75d-a7ac-7fcc-d302"/>
+    <entryLink import="true" name="Plasma Walker" hidden="false" type="selectionEntry" id="pw-id" targetId="e75d-a7ac-7fcc-d302"/>
     <entryLink import="true" name="Penitent Engines" hidden="false" type="selectionEntry" id="45e7-e24d-c9d6-660a" targetId="327d-a6df-26b-bb9b"/>
     <entryLink import="true" name="Ministorum Priest" hidden="false" type="selectionEntry" id="bb3e-c770-b77f-a8a1" targetId="599d-1e2a-eb0e-430e"/>
     <entryLink import="true" name="Repentia Squad" hidden="false" type="selectionEntry" id="a56-be88-fa2f-8d2a" targetId="7d63-7b55-a632-6a10"/>
