@@ -4735,7 +4735,7 @@ of your Command phase, you can choose one of the following:
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="➤ Plasma obliterator - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e558-4d62-5827-b2a7">
+                <profile name="➤ Plasma obliterator - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a-012">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
@@ -4748,25 +4748,25 @@ of your Command phase, you can choose one of the following:
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a-012"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a-013"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a-013"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a-014"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Hazardous" hidden="false" type="rule" id="a-014" targetId="8367-374c-f87-c627"/>
-                <infoLink name="Blast" hidden="false" type="rule" id="a-015" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Hazardous" hidden="false" type="rule" id="a-015" targetId="8367-374c-f87-c627"/>
+                <infoLink name="Blast" hidden="false" type="rule" id="a-016" targetId="6c1f-1cf7-ff25-c99e"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a-016" includeChildSelections="false"/>
-        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="a-017" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a-018" includeChildSelections="true"/>
-        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a-019" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a-017" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="a-018" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a-019" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="a-020" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Crusade" hidden="false" id="a-020" type="selectionEntryGroup" targetId="b0df-6a60-8561-efde" sortIndex="1"/>
+        <entryLink import="true" name="Crusade" hidden="false" id="a-021" type="selectionEntryGroup" targetId="b0df-6a60-8561-efde" sortIndex="1"/>
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
