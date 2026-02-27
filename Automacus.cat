@@ -4878,8 +4878,8 @@ of your Command phase, you can choose one of the following:
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Plasma Obliterator" hidden="false" id="a-036">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a-037"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a-038"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a-037"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a-038"/>
               </constraints>
               <profiles>
                 <profile name="➤ Plasma obliterator - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a-039">
