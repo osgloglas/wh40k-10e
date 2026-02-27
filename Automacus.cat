@@ -4685,8 +4685,8 @@ of your Command phase, you can choose one of the following:
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="dbd4-63-af05-998" id="8c78-61a5-b633-7b72" primary="true" name="Vehicle"/>
-        <categoryLink targetId="6dda-e157-334d-e93a" id="65b5-ba77-70b5-52d0" primary="false" name="Walker"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="a-022" primary="true" name="Vehicle"/>
+        <categoryLink targetId="6dda-e157-334d-e93a" id="a-023" primary="false" name="Walker"/>
         <categoryLink targetId="a-002" id="a-004" primary="false" name="Plasma Walker"/>
       </categoryLinks>
       <infoLinks>
