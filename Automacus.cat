@@ -4676,7 +4676,7 @@ of your Command phase, you can choose one of the following:
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plasma Walker" hidden="false" id="a-003" publicationId="me">
+    <selectionEntry type="unit" import="true" name="Plasma Walker" hidden="false" id="a-003" publicationId="7d85-6d0f-57e0-5dea">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="240"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
